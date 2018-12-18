@@ -79,9 +79,9 @@ export default {
           endDate: '2019-03-31',
           title: 'Q1 2019',
           info: [
-            'Android/iOS wallets',
+            'Android/iOS wallets'
           ]
-        },
+        }
       ]
     }
   },
