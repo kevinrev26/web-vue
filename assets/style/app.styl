@@ -1,0 +1,33 @@
+// Import and define Vuetify color theme
+// https://vuetifyjs.com/en/style/colors
+@require '~vuetify/src/stylus/settings/_colors'
+$theme := {
+  primary:     $blue.darken-2
+  accent:      $blue.accent-2
+  secondary:   $grey.lighten-1
+  info:        $blue.lighten-1
+  warning:     $amber.darken-2
+  error:       $red.accent-4
+  success:     $green.lighten-2
+}
+
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main'
+
+.page
+  @extend .fade-transition
+.text-header
+  text-align: center
+  display: inline-block
+  font-size: 28px
+  font-weight: 500
+  line-height: 50px
+  position: relative
+  margin-bottom: 1.25rem
+  &:before
+    content: ""
+    position: absolute
+    width: 50%
+    border-top: 2px solid #000
+    top: 0
+    left: 0
