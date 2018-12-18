@@ -2,7 +2,7 @@
   <div class="tera-community text-xs-center">
     <v-btn fab dark
       :small="$vuetify.breakpoint.smAndDown"
-      :large="$vuetify.breakpoint.lgAndUp"
+      :large="$vuetify.breakpoint.xlOnly"
       color="#667586"
       v-for="item in data"
       :key="item.icon"
