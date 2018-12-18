@@ -131,7 +131,7 @@ export default {
       width: 4px
       height: 100%
       margin: 0 18px 0 10px
-      background-image: linear-gradient(rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.25) 100%)
+      background-image: linear-gradient(rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0.25) 100%)
       .dot
         top: 0
         left: 50%
