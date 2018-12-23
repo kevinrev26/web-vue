@@ -31,24 +31,24 @@ export default {
     return {
       nav: [
         {
-          id: 1,
-          title: 'Technology',
-          link: '',
-          hashTag: '#tech-spec',
-          active: false
-        },
-        {
-          id: 2,
-          title: 'Start Mining',
-          link: 'https://github.com/terafoundation/wallet/',
-          hashTag: '',
-          active: false
-        },
-        {
           id: 3,
           title: 'Explorer',
           link: 'http://terafoundation.org/explorer.html',
           hasTag: '',
+          active: false
+        },
+        {
+          id: 4,
+          title: 'Wallet',
+          link: 'http://terafoundation.org/web-wallet.html',
+          hashTag: '',
+          active: false
+        },
+        {
+          id: 5,
+          title: 'Network Map',
+          link: 'http://terafoundation.org/map.html',
+          hashTag: '',
           active: false
         }
       ],

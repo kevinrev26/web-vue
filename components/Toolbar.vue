@@ -62,6 +62,20 @@ export default {
           link: 'http://terafoundation.org/explorer.html',
           hasTag: '',
           active: false
+        },
+        {
+          id: 4,
+          title: 'Wallet',
+          link: 'http://terafoundation.org/web-wallet.html',
+          hashTag: '',
+          active: false
+        },
+        {
+          id: 5,
+          title: 'Network Map',
+          link: 'http://terafoundation.org/map.html',
+          hashTag: '',
+          active: false
         }
       ]
     }

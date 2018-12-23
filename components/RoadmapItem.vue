@@ -91,6 +91,7 @@ export default {
       height: 20px
       background-color: #fff
       border-radius: 50%
+      border: 4px solid rgba(0, 0, 0, 0.5)
     &.done, &.processing
       &:before
         content: ''
